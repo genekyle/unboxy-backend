@@ -2,7 +2,7 @@ from flask import Blueprint, jsonify
 
 products_bp = Blueprint("products", __name__)
 
-# Sample product data (for now; will use DB later)
+# Sample product data (will eventually come from a database)
 sample_products = [
     {
         "id": 1,
@@ -22,4 +22,9 @@ sample_products = [
 
 @products_bp.route("/api/products", methods=["GET"])
 def get_products():
-    return jsonify(sample_products)
+    # Return products in a named structure for scalability
+    return jsonify({
+        "products": sample_products,
+        "count": len(sample_products),
+        "success": True
+    })
