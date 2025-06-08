@@ -8,15 +8,15 @@ sample_products = [
         "id": 1,
         "name": "Labubu The Monsters Exciting Macaron Vinyl Face Series Lychee Berry",
         "price": 24.99,
-        "description": "Limited edition Labubu pirate figurine.",
-        "image_url": "/images/labubu-pirate.png"
+        "description": "Limited edition Labubu figurine.",
+        "image_url": "/images/lychee-berry.jpg"
     },
     {
         "id": 2,
         "name": "Unboxy Mystery Box",
-        "price": 49.99,
-        "description": "Includes 3 surprise figurines from our 2025 collection.",
-        "image_url": "/images/mystery-box.png"
+        "price": 19.99,
+        "description": "Includes 1 surprise figurines from our 2025 collection.",
+        "image_url": "/images/the-monsters-have-a-seat-box.jpg"
     }
 ]
 
